@@ -12,8 +12,8 @@ def line(customer_list)
     placement = []
     i = 0 
     while i < customer_list.length  
-    placement << "The line is currently: #{i + 1}. #{customer_list[i]}"
-    puts placement 
+      placement << "The line is currently: #{i + 1}. #{customer_list[i]}"
+      puts placement 
     end
   end
   
@@ -24,6 +24,7 @@ def now_serving(customer_list)
   else 
     puts "Currently serving #{customer_list[0]}."
     customer_list.shift 
+  end
 end
   
   
