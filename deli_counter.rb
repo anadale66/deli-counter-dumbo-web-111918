@@ -13,8 +13,8 @@ def line(customer_list)
     i = 0 
     while i < customer_list.length  
       placement += "The line is currently: #{i + 1}. #{customer_list[i]}"
-      puts placement 
     end
+    puts placement 
   end
 end
   
