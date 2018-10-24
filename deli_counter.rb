@@ -11,12 +11,12 @@ def line(customer_list)
   else
     placement = ""
     i = 0
-    puts "The line is currently: #{placement}"
+    
     while i < customer_list.length  
       placement += #{i + 1}. #{customer_list[i]} "
       i += 1
     end
-    puts placement
+    puts placementputs "The line is currently: #{placement}"
   end
 end
   
