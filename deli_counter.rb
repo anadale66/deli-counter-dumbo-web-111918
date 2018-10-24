@@ -27,4 +27,3 @@ def now_serving(customer_list)
 end
   
   
-end
