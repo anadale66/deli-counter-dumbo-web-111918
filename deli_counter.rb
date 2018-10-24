@@ -19,8 +19,11 @@ def line(customer_list)
   
   
 def now_serving(customer_list)
-  if cutomer_list.length == 0 
-    
+  if customer_list.length == 0 
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "Currently serving #{customer_list[0]}."
+    customer_list.shift 
 end
   
   
