@@ -9,12 +9,11 @@ def line(customer_list)
   if customer_list.length == 0
     puts "The line is currently empty."
   else
-    placement = []
-    i = 0 
+    placement = ""
     while i < customer_list.length  
       placement += "The line is currently: #{i + 1}. #{customer_list[i]}"
     end
-    puts placement.join 
+    puts placement
   end
 end
   
