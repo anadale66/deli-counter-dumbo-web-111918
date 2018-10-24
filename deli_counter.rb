@@ -1,6 +1,5 @@
 katz_deli = []
 
-
 def take_a_number(customer_list, name)
   customer_list << name 
   puts "Welcome, #{name}. You are number #{customer_list.length} in line."
@@ -15,6 +14,7 @@ def line(customer_list)
     while i < customer_list.length  
     placement << "The line is currently: #{i + 1}. #{customer_list[i]}"
     puts placement 
+    end
   end
   
   
