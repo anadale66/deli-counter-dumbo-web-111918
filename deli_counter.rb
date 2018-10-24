@@ -16,6 +16,7 @@ def line(customer_list)
       puts placement 
     end
   end
+end
   
   
 def now_serving(customer_list)
